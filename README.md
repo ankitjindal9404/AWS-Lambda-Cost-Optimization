@@ -2,9 +2,9 @@
 
 I created AWS Lambda function identifies EBS snapshots that are no longer associated with any EBS volume and deletes them to help save on storage costs.
 
-Before using this Lambda function, ensure that:
-
 ## Prerequisites
+
+Before using this Lambda function, ensure that:
 
 - You have an active AWS account.
 - AWS Lambda permissions to manage EBS snapshots and EC2 instances are granted.
